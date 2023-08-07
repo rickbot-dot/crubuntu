@@ -10,7 +10,7 @@ clear
 
 cecho white "Crubuntu 23.04 Setup"
 echo
-cat cat msg/welcome
+cat msg/welcome
 echo
 options=("Install Crubuntu and Remove Debian" "Remove Crubuntu and Install Debian" "Wiki" "Google (for help)" "Exit Setup" "[Advanced] Termina Shell")
 

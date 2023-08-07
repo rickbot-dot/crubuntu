@@ -11,7 +11,7 @@ cecho yellow "Crubuntu 23.04 Setup"
 echo "-----------------------"
 cat msg/welcome
 echo
-options=("Install Crubuntu and Remove Debian" "Remove Crubuntu and Install Debian" "Wiki" "Exit")
+options=("Install Crubuntu and Remove Debian" "Remove Crubuntu and Install Debian" "Wiki" "Google (for help)" "Exit Setup" "[Advanced] Termina Shell")
 
 select_option "${options[@]}"
 choice=$?

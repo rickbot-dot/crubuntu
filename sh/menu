@@ -22,8 +22,6 @@ function select_option {
     key_input()        { read -s -n3 key 2>/dev/null >&2
                          if [[ $key = $ESC[A ]]; then echo up;    fi
                          if [[ $key = $ESC[B ]]; then echo down;  fi
-                         if [[ $key = j      ]]; then echo up;    fi
-                         if [[ $key = k      ]]; then echo down;  fi
                          if [[ $key = ""     ]]; then echo enter; fi; }
 
     # initially print empty new lines (scroll down if at bottom of screen)

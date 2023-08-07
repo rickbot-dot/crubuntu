@@ -1,6 +1,3 @@
-#!/bin/bash
-printf %b '\e]11;#0000FF\a'
-
 # Load scripts
 source sh/colors
 source sh/menu
@@ -8,7 +5,7 @@ source sh/menu
 # Clear the screen for more clean interface
 clear
 
-cecho white "Crubuntu 23.04 Setup"
+cecho yellow "Crubuntu 23.04 Setup"
 echo
 cat msg/welcome
 echo

@@ -1,4 +1,5 @@
 #!/bin/bash
+printf %b '\e]11;#0000FF\a'
 
 # Load scripts
 source sh/colors

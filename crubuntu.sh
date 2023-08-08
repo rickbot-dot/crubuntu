@@ -48,5 +48,19 @@ echo $choice
 sleep 2
 fi
 
+# Exit
+if [[ $choice == 3 ]]; then
+exit
+fi
+
+# Help
+if [[ $choice == 2 ]]; then
+cecho yellow "Crubuntu 23.04 Setup"
+echo
+cat msg/help
+echo
+read -N 1 -s -t 10
+fi
+
 clear
 done

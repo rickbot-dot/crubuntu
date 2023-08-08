@@ -91,7 +91,8 @@ while true; do
       clear
 
       if [[ $choice == 0 ]]; then
-        lxc exec penguin -- bash
+        lxc exec penguin -- bash || bash
+        clear
       fi
       if [[ $choice == 1 ]]; then
         break

@@ -30,6 +30,7 @@ while true; do
     choice=$?
     echo $choice
     sleep 2
+    choice=0
   fi
 
   # Uninstaller
@@ -57,6 +58,7 @@ while true; do
       if [[ $? == 1 ]]; then
         lxc remove penguin
       fi
+      choice=0
     fi
   fi
 
@@ -72,6 +74,7 @@ while true; do
     cat msg/help
     echo
     read -N 1 -s -t 10
+    choice=0
   fi
 
   # Advanced
@@ -93,6 +96,7 @@ while true; do
       if [[ $choice == 1 ]]; then
         break
       fi
+      choice=0
     done
   fi
 done

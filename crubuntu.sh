@@ -38,9 +38,12 @@ while true; do
     echo
     cat msg/uninstaller
     echo
-    read -set10 uninstall_conf
+    read -et10 uninstall_conf
     if [[ $uninstall_conf == "CRUBUNTU" ]]; then
-      echo "CRUBUNTU was entered!"
+      clear
+      cecho yellow "Crubuntu 23.04 Setup"
+      echo
+      cecho red "WARNING!"
       echo "All data in the Crubuntu container will be removed."
       echo "This action is permanent and cannot be undone. Consider a backup first."
       echo "The user account you created will not be normal, and will be root,"

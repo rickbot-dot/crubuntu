@@ -38,7 +38,7 @@ while true; do
     echo
     cat msg/uninstaller
     echo
-    read -e uninstall_conf
+    read -set10 uninstall_conf
     if [[ $uninstall_conf == "CRUBUNTU" ]]; then
       echo "CRUBUNTU was entered!"
       echo "All data in the Crubuntu container will be removed."

@@ -1,0 +1,7 @@
+YOU ARE ABOUT TO REMOVE CRUBUNTU FROM YOUR CHROME DEVICE!
+
+This will delete the Crubuntu container and reinstall the Debian container.
+To effectively reinstall Linux, go to the Settings app and remove your
+Linux development enviornment, then reinstall Linux.
+
+Please type "crubuntu" in all caps to confirm.

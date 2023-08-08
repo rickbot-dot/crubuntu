@@ -2,11 +2,11 @@
 source sh/colors
 source sh/menu
 
-# Clear the screen for a cleaner interface
-clear
-
 # Menu
 while true; do
+  # Clear the screen for a cleaner interface
+  clear
+
   cecho yellow "Crubuntu 23.04 Setup"
   echo
   cat msg/welcome
@@ -38,7 +38,7 @@ while true; do
     echo
     cat msg/uninstaller
     echo
-    read uninstall_conf -e
+    read -e uninstall_conf
     if [[ $uninstall_conf == "CRUBUNTU" ]]; then
       echo "CRUBUNTU was entered!"
       echo "All data in the Crubuntu container will be removed."

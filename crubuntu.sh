@@ -28,6 +28,8 @@ options=("Install Crubuntu 23.04 (Lunar / stable)" "Install Crubuntu 22.04 LTS (
 
 select_option "${options[@]}"
 choice=$?
+echo $choice
+sleep 2
 fi
 
 # Uninstaller

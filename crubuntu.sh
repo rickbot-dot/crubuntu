@@ -41,4 +41,6 @@ options=("< Back" "Uninstall Crubuntu")
 select_option "${options[@]}"
 choice=$?
 fi
+
+clear
 done

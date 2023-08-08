@@ -15,6 +15,8 @@ options=("Install Crubuntu" "Remove Crubuntu" "Help (Wiki, Google, etc)" "Exit S
 
 select_option "${options[@]}"
 choice=$?
+echo $choice
+sleep 2
 
 clear
 
@@ -33,15 +35,17 @@ sleep 2
 fi
 
 # Uninstaller
-if [[ $choise == 1 ]]; then
+if [[ $choice == 1 ]]; then
 cecho yellow "Crubuntu 23.04 Setup"
 echo
-cat msg/installer
+cat msg/uninstaller
 echo
 options=("< Back" "Uninstall Crubuntu")
 
 select_option "${options[@]}"
 choice=$?
+echo $choice
+sleep 2
 fi
 
 clear

@@ -77,8 +77,9 @@ while true; do
   # Advanced
   if [[ $choice == 4 ]]; then
     while true; do
-      cecho red "Crubuntu 23.04 Setup"
+      cecho yellow "Crubuntu 23.04 Setup"
       echo
+      cecho blue "Advanced Options"
       options=("Crostini Shell" "< Back")
 
       select_option "${options[@]}"

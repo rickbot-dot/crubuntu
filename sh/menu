@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # THIS IS NOT THE CRUBUNTU INSTALLER.
-# The code for Crubuntu setup is in ./crubuntu.sh
+# The code for Crubuntu setup is in ../crubuntu.sh
 #
 # Renders a text based list of options that can be selected by the
 # user using up, down and enter keys and returns the chosen option.
